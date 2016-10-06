@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>$id$</id>
+        <version>$version$</version>
+        <title>$title$</title>
+        <authors>Pavel Sviridov</authors>
+        <owners>Pavel Sviridov</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Adds extra layout renderers</description>
+        <summary>Adds extra layout renderers</summary>
+        <copyright>Copyright 2012</copyright>
+        <tags>gems nlog</tags>
+        <dependencies>
+          <dependency id="Common.Logging.NLog20" version="2.1.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Targets\ConfigTransforms\web.common.config.transform" target="content" />
+        <file src="Targets\ConfigTransforms\AppHoster.exe.config.transform" target="content" />
+    </files>
+</package>

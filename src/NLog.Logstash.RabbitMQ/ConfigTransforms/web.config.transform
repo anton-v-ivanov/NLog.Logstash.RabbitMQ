@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="nlog" type="NLog.Config.ConfigSectionHandler, NLog" />
+  </configSections>
+  <nlog throwExceptions="true">
+    <extensions>
+      <add assembly="NLog.Logstash.RabbitMQ" />
+    </extensions>
+    <targets>
+      <target name="logstash"
+            ConnectionString="amqp://guest:guest@logstash:5672"
+            type="RabbitMQ"
+            app="$rootnamespace$"/>
+    </targets>
+    <rules>
+      <logger name="*" minlevel="Debug" writeTo="logstash" />
+    </rules>
+  </nlog>
+</configuration>

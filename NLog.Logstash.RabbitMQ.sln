@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5CF5D3F7-214E-4630-BB37-A8FC92988B45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.Logstash.RabbitMQ", "src\NLog.Logstash.RabbitMQ\NLog.Logstash.RabbitMQ.csproj", "{68623F75-3326-430F-A456-F78563BF254A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68623F75-3326-430F-A456-F78563BF254A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68623F75-3326-430F-A456-F78563BF254A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68623F75-3326-430F-A456-F78563BF254A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68623F75-3326-430F-A456-F78563BF254A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68623F75-3326-430F-A456-F78563BF254A} = {5CF5D3F7-214E-4630-BB37-A8FC92988B45}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = src\NLog.Logstash.RabbitMQ\NLog.Logstash.RabbitMQ.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.VersionControlPolicy = $2
+		$2.inheritsSet = Mono
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

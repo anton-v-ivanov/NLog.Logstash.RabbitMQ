@@ -1,0 +1,19 @@
+﻿<Properties>
+  <AuthorInfo Name="Anton Ivanov" Email="" Copyright="Anton Ivanov" Company="" Trademark="" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\AlphaSky.Logging.NLog.RabbitMQ\Targets\RabbitMQ.cs">
+    <Files>
+      <File FileName="src\AlphaSky.Logging.NLog.RabbitMQ\LayoutRenderers\Common\ExceptionSourceLayoutRenderer.cs" Line="24" Column="24" />
+      <File FileName="src\AlphaSky.Logging.NLog.RabbitMQ\LayoutRenderers\Web\AspNetRequestFormCollectionLayoutRenderer.cs" Line="27" Column="27" />
+      <File FileName="src\AlphaSky.Logging.NLog.RabbitMQ\LayoutRenderers\Web\AspNetRequestRawUrlLayoutRenderer.cs" Line="27" Column="27" />
+      <File FileName="src\AlphaSky.Logging.NLog.RabbitMQ\Targets\RabbitMQ.cs" Line="102" Column="102" />
+      <File FileName="src\AlphaSky.Logging.NLog.RabbitMQ\LayoutRenderers\Web\AspNetRequestUrlLayoutRenderer.cs" Line="27" Column="27" />
+      <File FileName="src\AlphaSky.Logging.NLog.RabbitMQ\Targets\ConfigTransforms\app.config.transform" Line="1" Column="1" />
+      <File FileName="src\AlphaSky.Logging.NLog.RabbitMQ\Targets\ConfigTransforms\web.config.transform" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,10 @@
+bin/
+obj/
+build/
+*.user
+_ReSharper*
+*.resharper
+*.suo
+SharedAssemblyInfo.cs
+packages/
+*.sln.ide
