@@ -50,9 +50,9 @@ Complete configuration:
 * **ConnectionString** - is a string with connection information for RabbitMQ (username, password, host, port and vhost)
 * **app** - name of your application
 * **type** - must be "RabbitMQ"
-* **Topic** - RabbitMQ routing_key param value. Default is "${level}" (Info, Error, Warm etc)
+* **Topic** - RabbitMQ routing_key param value. Default is "${level}" (Info, Error, Warn etc)
 * **Exchange** - name of the exchange of RabbitMQ server
-* **Durable** - 
+* **Durable** - defines if the exchange will be durable or not
 * **RetryCount** - how much time we retry to dequeue the message from internal queue while waiting new messages
 * **RetryDelay** - delay between dequeue retry attempts
 * **ConnectionRetryDelay** - delay between attempts to restore connection to RabbitMQ if it's lost
