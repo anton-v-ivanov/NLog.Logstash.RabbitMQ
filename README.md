@@ -2,7 +2,7 @@
 
 This extension is designed for writing logs of your .NET application to the [LogStash](http://logstash.net/) very fast and asynchronously.
 
-##Configuration:
+## Configuration:
 
 Minimum target configuration:
 ```xml
